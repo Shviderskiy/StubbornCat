@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file alias="StubbornCat.qml">qml/StubbornCat.qml</file>
+        <file alias="Cat.qml">qml/Cat.qml</file>
+        <file alias="CustomCheckBox.qml">qml/CustomCheckBox.qml</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="Archangelsk.ttf">fonts/Archangelsk.ttf</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="cat_body.png">images/cat_body.png</file>
+        <file alias="cat_forearm.png">images/cat_forearm.png</file>
+        <file alias="cat_paw.png">images/cat_paw.png</file>
+    </qresource>
+</RCC>
