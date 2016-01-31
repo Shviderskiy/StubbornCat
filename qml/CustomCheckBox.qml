@@ -92,6 +92,7 @@ Item {
             root.isChecked = !root.isChecked
             if (root.isChecked) root.checked()
         }
+        cursorShape: Qt.PointingHandCursor
     }
 
 }
