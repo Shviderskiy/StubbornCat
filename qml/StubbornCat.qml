@@ -1,6 +1,7 @@
 import QtQuick 2.5
-import QtQuick.Controls 1.3 // ApplicationWindow type
-import QtQuick.Window 2.2   // Screen
+import QtQuick.Controls 1.3 
+import QtQuick.Window 2.2   
+
 
 ApplicationWindow {
 

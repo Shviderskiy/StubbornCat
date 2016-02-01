@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import QtGraphicalEffects 1.0
 
+
 Item {
 
     id: root
@@ -37,7 +38,7 @@ Item {
         anchors.top: root.top
         anchors.leftMargin: 0.05 * root.width
         anchors.topMargin:
-            root.isChecked ? 0.05 * root.width : root.width * 1.05
+            root.isChecked ? 0.05 * root.width : 1.05 * root.width
 
         anchors {
             Behavior on topMargin {
@@ -87,12 +88,12 @@ Item {
 
 
     MouseArea {
+    
         anchors.fill: background
         onPressed: {
             root.isChecked = !root.isChecked
             if (root.isChecked) root.checked()
         }
-        cursorShape: Qt.PointingHandCursor
     }
 
 }
