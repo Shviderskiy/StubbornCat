@@ -45,7 +45,7 @@ ApplicationWindow {
 
         anchors.left: parent.left
         anchors.top: parent.top
-        anchors.leftMargin: checkBox.x - width * 0.46;
+        anchors.leftMargin: checkBox.x - 0.46 * width
         anchors.topMargin: appWin.height / 2 - cat.width
 
         width: 0.45 * appWin.usableSpace
