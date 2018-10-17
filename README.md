@@ -1,5 +1,5 @@
 # Stubborn Cat <a href="https://github.com/Shviderskiy/StubbornCat/raw/master/bin/StubbornCat.apk">
-  <img src="http://www.hempoilcan.com/wp-content/uploads/2014/05/download-button.png" width="200" height="50">
+  <img src="https://openclipart.org/image/2400px/svg_to_png/112/molumen-download-button-1.png" width="200" height="50">
 </a>
 
 ### My first android app Qt
